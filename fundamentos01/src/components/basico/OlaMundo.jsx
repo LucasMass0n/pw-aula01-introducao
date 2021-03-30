@@ -1,12 +1,13 @@
-import React from 'react';
+import React from 'react'
 
-export default () => {
+export default () =>{
+
     const informacao = 'Primeiro componente JSX'
 
-    return (
+    return(
         <>
-          <h2>Componente OlaMundo</h2>
-          <p>{ informacao }</p>
+            <h2>Componente OlaMundo</h2>
+            <p>{ informacao }</p>
         </>
-    );
+    )
 }
